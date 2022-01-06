@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Montserrat:wght@300&family=Poppins:wght@200&family=Roboto:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <title>Coca Cola</title>
+</head>
+
+<body class="bg-light">
+  <!-- Navbar Component -->
+  <!--
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-lg-0 navbar-custom">
+    <a class="navbar-brand" href="#">
+        <img src="photos/logo - bw.png" width="150" height="80" alt="coca cola logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-uppercase font-weight-bold p-4" id="navbarSupportedContent">
+      <ul class="navbar-nav ">
+        <li class="nav-item active p-2">
+          <a class="nav-link" href="#">Our products<span class="sr-only">(current)</span></a>
+        </li>
+                <li class="nav-item p-2">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+        <li class="nav-item p-2">
+            <a class="nav-link" href="#">Give</a>
+        </li>
+        <li class="nav-item p-2">
+            <a class="nav-link" href="#">Rewards</a>
+        </li>
+        <li class="nav-item p-2">
+            <a class="nav-link" href="#">Where to buy</a>
+        </li>
+        <ul class="navbar-nav">
+        <li class="nav-item p-2">
+            <a class="nav-link"  href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg></a>
+        </li>
+        <li class="nav item p-2">
+            <a class="nav-link" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+              </svg></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-lg-0 navbar-custom">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2 bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="photos/logo - bw.png" width="150" height="80" alt="coca cola logo"></a>
+        <ul class="navbar-nav mr-auto text-uppercase font-weight-bold p-4">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Give</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Rewards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Where to buy</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link ml-4"  href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link ml-4" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+                  </svg></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+  
+
+  <!-- Jumbotron -->
+
+  <div class="jumbotron jumbotron-fluid" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./photos/bw/coca-cola-siente-el-sabor-amigos-1800x700\ -\ bw.png); background-size: cover;" id="jumbo">
+    <h1 class="display-3 text-center text-white my-5">Coca Cola</h1>
+    <p class="text-center text-white p-3 font-weight-bold">Coca Cola re-design project</p>
+       <div class="row justify-content-center">
+       <button type="button" class="btn btn-light rounded-pill font-weight-bold text-danger" href="#" id="but">See more</button>
+       </div>
+ </div>
+ </div>
+
+<!-- two cards with a line between them-->
+<!--
+<div class="card-deck m-4 p-4 w-50">
+<div class="card text-center border-0" style="width: 8rem;">
+    <img src="photos/869px-Sprite_Logo.svg.png" class="card-img-top" alt="sprite logo">
+    <div class="card-body">
+        <h5 class="text-center">Spice up your
+            holidays this season. </h5>
+      <p class="card-text text-center">Head to Sprite.com/holiday to share in the
+        joys of the spiciest Sprite of the year.</p>
+        <button type="button" class="btn btn-light rounded-pill font-weight-bold text-danger" href="#" id="but">See more</button>
+    </div>
+  </div>
+
+  <div class="card text-center border-0" style="width: 8rem;">
+    <img src="photos/869px-Sprite_Logo.svg.png" class="card-img-top" alt="sprite logo">
+    <div class="card-body">
+        <h5 class="text-center">Get in the
+            spirit of the holidays!</h5>
+      <p class="card-text text-center">Discover F-AHA-LA-LA moments
+        and more at DrinkAHA.com.</p>
+        <button type="button" class="btn btn-light rounded-pill font-weight-bold text-danger" href="#" id="but">See more</button>
+    </div>
+  </div>
+  </div>
+-->
+
+  <!-- card layout 2-->
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-sm-2 text-center mt-5 pt-4">
+    <div class="col border-right border-danger">
+      <div class="card border-0 dad1 bg-light">
+        <img src="photos/cola.png" class="card-img-top" alt="red cola">
+        <div class="card-body">
+          <h5 class="card-title">Spice up your
+            holidays this season.</h5>
+          <p class="card-text">Head to Sprite.com/holiday to share in the
+            joys of the spiciest Sprite of the year.</p>
+            <button type="button" class="btn btn-dark rounded-pill font-weight-bold text-light" href="#" id="but">See more</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card border-0 dad2 bg-light ">
+        <img src="photos/cola-can.png" class="card-img-top" alt="black and white cola">
+        <div class="card-body">
+          <h5 class="card-title">Get in the
+            spirit of the holidays!</h5>
+          <p class="card-text">Discover F-AHA-LA-LA moments
+            and more at DrinkAHA.com.</p>
+            <button type="button" class="btn btn-dark rounded-pill font-weight-bold text-light" href="#" id="but">See more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- photo card 2 layout-->
+
+    <div class="row g-0 mt-5 bg-dark p-4">
+      <div class="col-md-4">
+        <img src="photos/bw/Coca-Cola-Santa-Cameo-FT-BLOG1121-1024x511 - bw.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+            <h5 class="text-danger">COKE POLICE</h5>
+          <h2 class="card-title text-light">Christmas Time</h2>
+          <p class="card-text text-light pd-2">Enjoy the holidays with our new brand of coke.</p>
+          <button type="button" class="btn btn-danger rounded-pill font-weight-bold text-light" href="#" id="but">Learn more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- photo card 3 layout-->
+
+  <div class="row g-0 mt-5 bg-light p-4">
+    <div class="col-md-12">
+      <img src="photos/bw/coca-cola - bw.png" class="img-fluid rounded-start" alt="...">
+    </div>
+  </div>
+</div>
+
+  <!-- photo card 2 layout-->
+
+  <div class="row g-0 mt-5 bg-light p-4">
+    <div class="col-md-6">
+      <img src="photos/bw/4273995752 - bw.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-6 text-center mt-4 p-4">
+      <div class="card-body">
+          <h5 class="text-danger">New Flavours</h5>
+        <h2 class="card-title text-dark">new new new</h2>
+        <p class="card-text text-dark pd-2">Our team is working on the new tastes of coca cola.</p>
+        <button type="button" class="btn btn-danger rounded-pill font-weight-bold text-light" href="#" id="but">Learn more</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- new footer with links and stuff-->
+<!-- Footer -->
+<footer class="bg-dark text-center text-white mt-5">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" placeholder="Enter your email address" id="form5Example21" class="form-control" />
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+          eum harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">SHOP</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">HELP</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">EXPLORE</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">LEGAL</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+    <!-- Copyright -->
+    
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="#">Jenny Rublevsky</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- Bootstrap's JavaScript Files -->
+  <script src='index.js'></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
